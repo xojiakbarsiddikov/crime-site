@@ -1,0 +1,2264 @@
+body {
+    background: #0A0A0A;
+}
+.items {
+    position: relative;
+    top: 270px;
+    margin-left: 315px;
+    width: 1291px;
+    height: 967px;
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+}
+.Gwrapper-2 {
+    display: none;
+}
+.sidebar_title {
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-left: 51px;
+}
+.change_color {
+    color: #FF0000;
+}
+.d-flex {
+    display: flex;
+    padding: 25px 0 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_item {
+    padding-left: 51px;
+    padding-top: 20px;
+}
+
+.border {
+    display: none;
+    width: 20px;
+    height: 1px;
+    background: #FF0000;
+}
+
+/* .active_sidebar .border {
+    display: block;
+} */
+
+.active_sidebar svg path {
+    fill: #FFFFFF;
+}
+.active_sidebar p {
+    color: #fff;
+}
+
+.active_sidebarMedia svg path {
+    fill: #FFFFFF;
+}
+.active_sidebarMedia p {
+    color: #fff;
+}
+
+.cards-page {
+    display: none;
+    padding-left: 44px;
+}
+.cards-pageMedia {
+    display: none;
+    padding-left: 44px;
+}
+
+.titles {
+    margin-left: 12px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.first_flex {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 51px;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 51px;
+    cursor: pointer;
+}
+.card_profile {
+    width: 936px;
+    height: 80px;
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    backdrop-filter: blur(20px);
+}
+.ava {
+    margin: 20px 0px 50px;
+}
+.profile_details {
+    margin-left: 30px;
+}
+.profile_title {
+    margin-top: 19px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FF0000;
+}
+.profile_text {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.date_time {
+    padding-top: 20px;
+    padding-left: 32px;
+}
+.time {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.date {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.df {
+    display: flex;
+}
+
+.card_text {
+    width: 287px;
+    padding-top: 82px;
+}
+
+
+.warn {
+    padding-top: 82px;
+    padding-right: 42px;
+}
+
+.full {
+    display: flex;
+    align-items: center;
+    padding-top: 42px;
+    padding-bottom: 52px;
+}
+
+.full > p {
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 1000;
+}
+
+.full > * {
+    cursor: pointer;
+
+}
+
+.card_details {
+    background-image: url("../img/bgf.png");
+    background-position: center;
+    background-size: 600px;
+}
+
+
+.title__img {
+    padding-top: 80px;
+}
+.line_img {
+    padding-bottom: 62px;
+    padding-top: 2px;
+}
+
+
+.total {
+    padding-top: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.pla {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.card_title {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 12px;
+    color: #FFFFFF;
+}
+.titles {
+    margin-left: 12px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.cards {
+    background-image: url("../img/Rectangle\ 87\ \(1\).png");
+    border-radius: 8px;
+    margin-left: 50px;
+    width: 936px;
+    height: 302px;
+}
+
+.red {
+    color: red;
+}
+
+.gr {
+    color: #00C213;
+}
+
+
+
+
+.orange {
+    color: #FF6B00;
+}
+
+.bards_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    backdrop-filter: blur(20px);
+    padding: 22px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.bards_item:hover {
+    box-shadow: 0px 0px 30px #2f3542;
+}
+
+
+
+.bards_item img {
+    padding-right: 30px;
+    width: 85px;
+}
+
+.bards_item__right {
+    align-items: end;
+}
+
+.bards_item__right h3 {
+    padding-right: 50px;
+}
+.wr {
+    display: none;
+    padding-left: 20px;
+}
+.wrMedia {
+    display: none;
+    padding-left: 20px;
+}
+
+.wp {
+    display: none;
+}
+.wpMedia {
+    display: none;
+}
+
+.settings_page {
+    display: none;
+}
+.settings_pageMedia {
+    display: none;
+}
+.cursor {
+    cursor: pointer;
+}
+.person-text-p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    width: 273px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 15px;
+}
+
+.img-person {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.df-content-person {
+    width: 269px;
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    right: 43px;
+}
+
+.text-p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 135px;
+    color: #FFFFFF;
+}
+.text-h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 196px;
+}
+
+.text-p-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    width: 43px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text-p-wrapper {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    width: 437px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 18px;
+}
+
+.container__person {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.text-h1-person-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    width: 314px;
+    color: #FFFFFF;
+}
+
+.text-p-person-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.wrapper-text-content-2 {
+    width: 936px;
+    height: 80px;
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    backdrop-filter: blur(20px);
+}
+
+.wrapper-content21{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    padding: 27px;
+}
+
+.copy-img{
+    width: 25px;
+    height: 25px;
+}
+
+.cltext-p-person-2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 609px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dn {
+    display: none;
+}
+
+.db {
+    display: block;
+}
+
+.content-2-person-2 {
+    width: 87%;
+    margin: 60px auto;
+}
+
+.text-span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.text-span-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.p-text-2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 932px;
+    position: relative;
+    left: 12px;
+}
+
+.df-container__person-3 {
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.img-content-2{
+    width: 36px;
+    height: 36px;
+}
+
+flashBG {
+    animation-name: flash;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+}
+
+@keyframes flash {
+    0% {
+        background: #28a745;
+    }
+    100% {
+        background: transparent;
+    }
+}
+
+.first_flex {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 51px;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 51px;
+    cursor: pointer;
+}
+.card_profile {
+    width: 936px;
+    height: 80px;
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    backdrop-filter: blur(20px);
+}
+.ava {
+    width: 25px;
+    height: 25px;
+
+}
+.ava-1ava-1 {
+    margin: 20px 0px 50px;
+    width: 18.75px;
+    height: 25px;
+}
+.profile_details {
+    margin-left: 30px;
+}
+.profile_title {
+    margin-top: 19px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FF0000;
+}
+.profile_text {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.date_time {
+    padding-top: 20px;
+    padding-left: 32px;
+}
+.time {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.date {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pop_up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+}
+.pop_up.active {
+    transform: translateY(0%) scale(100%);
+    background-color: rgba(0, 0, 0, .8);
+}
+.pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+}
+.pop_up.active {
+    transform: translateY(0%) scale(100%);
+    background-color: rgba(0, 0, 0, .8);
+}
+.pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pop_up_body {
+    margin: auto;
+    width: 1291px;
+    height: 775px;
+    background: linear-gradient(150.89deg, rgba(23, 23, 23, 0.8) 21.3%, rgba(0, 0, 0, 0.8) 71.42%);
+    backdrop-filter: blur(20px);
+    border-radius: 18px;
+    padding: 100px 15px 118px  15px;
+    position: relative;
+}
+.pop_body p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #22262D;
+    margin-bottom: 40px;
+}
+.pop_up_body input {
+    display: block;
+    margin-left: 16%;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+    margin-top: 7%;
+}
+.pop_up_body .input1 {
+    display: block;
+    margin-left: 16%;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+}
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1e1e1e;
+}
+.pop__up_body:focus {
+    outline: none;
+}
+.pop-up-close {
+    position: absolute;
+    top: 26px;
+    right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 25.29px;
+    height: 25.29px;
+    text-align: center;
+    border-radius: 52%;
+}
+
+
+.widthy {
+    font-size: 12px;
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+}
+
+.popup-text-h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.popup-span {
+    color: #ff0000;
+    position: relative;
+    left: 5px;
+}
+
+.ul-wrapper-3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0px 60px;
+
+}
+
+.wrapper-popup {
+    display: flex;
+    margin: 42px auto;
+    width: 63%;
+}
+
+.ul-wrapper-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.text-opacity {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.text-opacity1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-popup__2 {
+    width: 213px;
+    height: 46px;
+    border: 1px solid #FF0000;
+    background: #050505;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF0000;
+}
+
+.btn-popup {
+    width: 21%;
+    margin: 0 auto;
+}
+
+.profile_img {
+    position: relative;
+    top: 20px;
+}
+.profile_img1 {
+    position: relative;
+    top: 25px;
+}
+.pop_up_body {
+    margin: auto;
+    width: 1291px;
+    height: 775px;
+    background: linear-gradient(150.89deg, rgba(23, 23, 23, 0.8) 21.3%, rgba(0, 0, 0, 0.8) 71.42%);
+    backdrop-filter: blur(20px);
+    border-radius: 18px;
+    padding: 100px 15px 118px  15px;
+    position: relative;
+}
+.pop_body p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #22262D;
+    margin-bottom: 40px;
+}
+.pop_up_body input {
+    display: block;
+    margin-left: 16%;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+    margin-top: 7%;
+}
+.pop_up_body .input1 {
+    display: block;
+    margin-left: 16%;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+}
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1e1e1e;
+}
+.pop__up_body:focus {
+    outline: none;
+}
+.pop-up-close {
+    position: absolute;
+    top: 26px;
+    right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 25.29px;
+    height: 25.29px;
+    text-align: center;
+    border-radius: 52%;
+}
+
+
+.widthy {
+    font-size: 12px;
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+}
+
+.popup-text-h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.popup-span {
+    color: #ff0000;
+    position: relative;
+    left: 5px;
+}
+
+.ul-wrapper-3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0px 60px;
+
+}
+
+.wrapper-popup {
+    display: flex;
+    margin: 42px auto;
+    width: 63%;
+}
+
+.ul-wrapper-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.text-opacity {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.text-opacity1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-popup__2 {
+    width: 213px;
+    height: 46px;
+    border: 1px solid #FF0000;
+    background: #050505;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF0000;
+}
+
+.btn-popup {
+    width: 21%;
+    margin: 0 auto;
+}
+
+.profile_img {
+    position: relative;
+    top: 30px;
+}
+.profile_img1 {
+    position: relative;
+    top: 25px;
+}
+
+.setting_div {
+    display: flex;
+}
+
+.active_div_setting {
+    background: linear-gradient(101.19deg, rgba(255, 0, 0, 0.28) 17.63%, rgba(146, 0, 0, 0.28) 40.01%, rgba(58, 0, 0, 0.28) 87.47%) !important;
+}
+
+.active_div_settingMedia {
+    background: linear-gradient(101.19deg, rgba(255, 0, 0, 0.28) 17.63%, rgba(146, 0, 0, 0.28) 40.01%, rgba(58, 0, 0, 0.28) 87.47%) !important;
+}
+
+.password_email div {
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(31, 30, 30, 0.2) 76.03%);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 445px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.nicname_google div {
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(31, 30, 30, 0.2) 76.03%);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 445px;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.setting_div h2 {
+    text-transform: uppercase;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 55px;
+}
+
+.password-setting {
+    padding-top: 30px;
+    display: flex;
+    align-items: end;
+}
+
+.password-setting div{
+    margin-right: 15px;
+}
+
+.password-setting input  {
+    outline: none;
+    background: #0A0A0A;
+    color: #fff;
+    border: none;
+    padding: 17px 127px 15px 35px;
+    margin-top: 15px;
+}
+
+.divs-db {
+    display: block !important;
+}
+.divs-dbMedia {
+    display: block !important;
+}
+
+.password-setting h3 {
+    padding-top: 15px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn-21fdsad {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    padding: 14px 20px 14px 20px;
+    background: transparent;
+    margin-top: 30px;
+}
+
+.all-password-setting {
+    display: none;
+}
+
+.all-password-settingMedia {
+    display: none;
+}
+
+.all-nicname-setting {
+    display: none;
+}
+
+.all-nicname-settingMedia {
+    display: none;
+}
+
+.all-email-setting {
+    display: none;
+}
+.all-email-settingMedia {
+    display: none;
+}
+
+.all-google-setting {
+    display: none;
+}
+.all-google-settingMedia {
+    display: none;
+}
+
+.text-setting h3{
+    color: #FF0000;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.text-setting p{
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.person-text-p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: right;
+    width: 273px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 15px;
+}
+
+.img-person {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.df-content-person {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    right: 43px;
+}
+
+.text-p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 135px;
+    color: #FFFFFF;
+}
+.text-h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 196px;
+}
+
+.text-p-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    width: 43px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text-p-wrapper {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    width: 437px;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 18px;
+}
+
+.container__person {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.text-h1-person-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    width: 314px;
+    color: #FFFFFF;
+}
+
+.text-p-person-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.wrapper-text-content-2 {
+    width: 936px;
+    height: 80px;
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    backdrop-filter: blur(20px);
+}
+
+.wrapper-content21{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    padding: 27px;
+}
+
+.copy-img{
+    width: 25px;
+    height: 25px;
+}
+
+.cltext-p-person-2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 609px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* .dn {
+    display: none;
+} */
+
+/* .db {
+    display: block;
+} */
+
+.chat-container {
+    display: none;
+    margin: 0 auto;
+}
+.chat-containerMedia {
+    display: none;
+    margin: 0 auto;
+}
+
+.content-2-person-2 {
+    width: 87%;
+    margin: 60px auto;
+}
+
+.text-span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.text-span-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.p-text-2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 932px;
+    position: relative;
+    left: 12px;
+}
+
+.df-container__person-3 {
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.img-content-2{
+    width: 36px;
+    height: 36px;
+}
+
+flashBG {
+    animation-name: flash;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+}
+
+@keyframes flash {
+    0% {
+        background: #28a745;
+    }
+    100% {
+        background: transparent;
+    }
+}
+
+.first_flex {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 51px;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+    margin-top: 15px;
+    padding-left: 51px;
+    cursor: pointer;
+}
+.card_profile {
+    width: 936px;
+    height: 80px;
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    backdrop-filter: blur(20px);
+}
+.ava {
+    width: 25px;
+    height: 25px;
+}
+.ava-1ava-1 {
+    margin: 20px 0px 50px;
+    width: 18.75px;
+    height: 25px;
+}
+.profile_details {
+    margin-left: 30px;
+}
+.profile_title {
+    margin-top: 19px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FF0000;
+}
+.profile_text {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.date_time {
+    padding-top: 20px;
+    padding-left: 32px;
+}
+.time {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.date {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pop_up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+}
+.pop_up.active {
+    transform: translateY(0%) scale(100%);
+    background-color: rgba(0, 0, 0, .8);
+}
+.pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_up_body {
+    margin: auto;
+    width: 1291px;
+    height: 775px;
+    background: linear-gradient(150.89deg, rgba(23, 23, 23, 0.8) 21.3%, rgba(0, 0, 0, 0.8) 71.42%);
+    backdrop-filter: blur(20px);
+    border-radius: 18px;
+    padding: 100px 15px 118px  15px;
+    position: relative;
+}
+.pop_body p {
+    font-size: 28px;
+    font-weight: 600;
+    color: #22262D;
+    margin-bottom: 40px;
+}
+.pop_up_body input {
+    display: block;
+    margin-left: 16%;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+    margin-top: 7%;
+}
+.pop_up_body .input1 {
+    display: block;
+    margin-left: 16%;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #89909f;
+}
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1e1e1e;
+}
+.pop__up_body:focus {
+    outline: none;
+}
+.pop-up-close {
+    position: absolute;
+    top: 26px;
+    right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 25.29px;
+    height: 25.29px;
+    text-align: center;
+    border-radius: 52%;
+}
+
+
+.widthy {
+    font-size: 12px;
+    position: relative;
+    bottom: 1px;
+    text-align: center;
+}
+
+.popup-text-h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.popup-span {
+    color: #ff0000;
+    position: relative;
+    left: 5px;
+}
+
+.ul-wrapper-3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0px 60px;
+
+}
+
+.wrapper-popup {
+    display: flex;
+    margin: 42px auto;
+    width: 63%;
+}
+
+.ul-wrapper-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.text-opacity {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.text-opacity1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dn {
+    display: none;
+}
+
+.btn-popup__2 {
+    width: 213px;
+    height: 46px;
+    border: 1px solid #FF0000;
+    background: #050505;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF0000;
+}
+
+.btn-popup {
+    width: 21%;
+    margin: 0 auto;
+}
+
+.profile_img {
+    position: relative;
+    top: 30px;
+}
+.profile_img1_one {
+    position: relative;
+    top: 25px;
+}
+
+.chat-container{
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    width: 936px;
+    height: 726px;
+}
+.chat-containerMedia{
+    background: linear-gradient(101.19deg, rgba(36, 36, 36, 0.2) 44.92%, rgba(0, 0, 0, 0.2) 76.03%);
+    width: 936px;
+    height: 726px;
+}
+.chat-content {
+    display: flex;
+    margin: 0 35px;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.25);
+}
+
+.l-h {
+    line-height: 30px;
+}
+
+.dfr {
+    padding-bottom: 35px;
+}
+
+.user_message {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.content-message {
+    background: #920000;
+    border-radius: 10px;
+    padding: 16px 35px 16px 35px;
+    width: 13%;
+}
+
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.yours {
+    align-items: flex-start;
+}
+
+.yours .message {
+    margin-right: 25%;
+    background-color: #242424;
+    position: relative;
+    margin-top: 15px;
+}
+
+.yours .message.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: -7px;
+    height: 20px;
+    width: 20px;
+    background: #242424;
+    border-bottom-right-radius: 15px;
+}
+.yours .message.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: -10px;
+    width: 10px;
+    height: 20px;
+    background: #050505;
+    border-bottom-right-radius: 10px;
+}
+
+.mine {
+    align-items: flex-end;
+}
+
+.Gwrapper-2{
+    display: none;
+}
+
+.mine .message {
+    color: white;
+    margin-left: 25%;
+    background: #920000;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.mine .message.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: -8px;
+    height: 20px;
+    width: 20px;
+    background: #920000;
+    background-attachment: fixed;
+    border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -10px;
+    width: 10px;
+    height: 20px;
+    background: #050505;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-cls{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.chat-message {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.input__message{
+    background: linear-gradient(269.72deg, #000000 29.25%, rgba(0, 0, 0, 0) 121.12%);
+    width: 801px;
+    height: 45px;
+    outline: none;
+    border: none;
+}
+
+.photo-img {
+    width: 19px;
+    height: 15px;
+    position: relative;
+    left: 26px;
+}
+
+.input-wr {
+    position: relative;
+    top: 60px;
+}
+
+.input__message{
+    padding: 12px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.25);
+    width: 801px;
+    height: 45px;
+}
+
+.btn-message-send{
+    width: 45px;
+    height: 45px;
+    background: #920000;
+    position: relative;
+    left: 4rem;
+}
+
+.sen-img{
+    width: 27px;
+    height: 27px;
+}
+
+.text-align{
+    width: 51%;
+    margin: 0 auto;
+}
+
+.text-span__message{
+    width: 2px;
+    height: 30px;
+    color: #FF0000;
+}
+
+.text-h4-message{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.text-h4-message2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 20px;
+}
+
+.content__23 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.content__23Media {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.close-chat {
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.settings_page {
+    margin-left: 41px;
+}
+.settings_pageMedia {
+    margin-left: 41px;
+}
+footer {
+    margin-top: 267px;
+}
+.media {
+    display: none;
+}
+
+@media (max-width: 424px) {
+    .close-chat {
+        display: block;
+        width: 80%;
+    }
+    .btn-message-send {
+        width: 40px;
+        height: 36px;
+        background: #920000;
+        position: relative;
+        left: 22rem;
+    }
+    .Gwrapper-2{
+        display: block;
+    }
+    .content__23Media {
+        display: flex;
+        justify-content: center;
+    }
+    .content__23 {
+        display: flex;
+        justify-content: center;
+    }
+    .input-wr {
+        top: 0px;
+    }
+    .photo-img{
+        display: none;
+    }
+    .input__message {
+        width: 375px;
+    }
+    .chat-containerMedia {
+        width: 400px;
+    }
+    .desktop {
+        display: none;
+    }
+    .media {
+        display: block;
+    }
+    .items {
+        margin-left: 0;
+        width: 0;
+    }
+    .sidebar_title {
+        font-size: 13px;
+    }
+    .titles {
+        font-size: 13px;
+    }
+    .card_profile {
+        height: 70px;
+    }
+    .total {
+        font-size: 50px;
+    }
+    .card_text {
+        font-size: 15px;
+    }
+    .cards-page {
+        margin-left: 65px;
+    }
+    .flex,
+    .first_flex {
+        width: 375px;
+        height: 138px;
+    }
+    .profile_img1_one {
+        top: 45px;
+        right: 30px;
+    }
+    .profile_title {
+        font-size: 15px;
+        line-height: 17px;
+        position: relative;
+    }
+    .profile_text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .sidebar {
+        /*display: none;*/
+    }
+    .password_email div {
+        height: 80px;
+        width: 355px;
+    }
+    .nicname_google div {
+        height: 80px;
+        width: 355px;
+    }
+    .setting_div {
+        display: block;
+    }
+    .password_email {
+        display: block;
+    }
+    .nicname_google {
+        display: block;
+    }
+    .text-setting p {
+        font-size: 13px;
+    }
+    .password-setting {
+        display: block;
+    }
+    .Gwrapper {
+        display: none;
+    }
+
+    .date_time {
+        display: none;
+    }
+    .container143{
+        padding-top: 83rem;
+    }
+    footer {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .line_img {
+        width: 100% !important;
+    }
+.Gwrapper-2 {
+    display: block;
+}
+    .items {
+        position: absolute;
+        top: 61px;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .header_none {
+        display: none !important;
+    }
+    .Gwrapper {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        display: block;
+    }
+    .Gwrapper-2 {
+        display: block !important;
+    }
+    .flex-block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .block-1-content p {
+        font-size: 14px;
+    }
+    .block-1-content {
+        max-width: 658px;
+        padding-top: 150px;
+    }
+    .block_4_container {
+        display: block;
+    }
+    .block_4_container img{
+        width: 500px;
+        height: 500px;
+    }
+    .block_4_container div{
+        height: 500px;
+        padding: 20px;
+        text-align: center;
+    }
+    .calc_block {
+        display: block !important;
+    }
+    .conver_cripto {
+        margin: 0 auto;
+    }
+    .calc_pr {
+        margin: 0 auto;
+    }
+    .conver_currency {
+        margin: 0 auto;
+    }
+    .company_block {
+        margin: 0 auto;
+    }
+    .content_Bb221 {
+        justify-content: space-around;
+    }
+    .content_b2 {
+        display: block !important;
+    }
+    .top_fid {
+        display: block;
+        text-align: center;
+    }
+    .feed_img img{
+        width: 491px;
+        height: 230px;
+    }
+    .sale {
+        width: 94%;
+        margin: 0 auto;
+        background: rgba(36, 36, 36, 0.2);
+        backdrop-filter: blur(20px);
+        padding: 32px 20px;
+    }
+    #menu {
+        margin: -100px 0 0 -290px;
+    }
+}
+
+
+@media (max-width: 769px) {
+
+    .items {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sda {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .pfsd {
+        padding-left: 10px;
+    }
+
+
+
+    .block-1 {
+        height: 23vh;
+    }
+    .page_1-text {
+        margin: 0;
+    }
+    .block__item:first-child   {
+        margin-top: 117px;
+    }
+    .text-h1-page_1 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .top_fid {
+        flex-direction: column;
+        text-align: center;
+    }
+    .items {
+        position: absolute;
+        top: 0;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .header_none {
+        display: none !important;
+    }
+    .Gwrapper {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        display: none;
+    }
+    .Gwrapper-2 {
+        display: block !important;
+    }
+    .flex-block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .block-1-content p {
+        font-size: 14px;
+    }
+    .block-1-content {
+        max-width: 658px;
+        padding-top: 150px;
+    }
+    .block_4_container {
+        display: block;
+    }
+    .block_4_container img{
+        width: 500px;
+        height: 500px;
+    }
+    .block_4_container div{
+        height: 500px;
+        padding: 20px;
+        text-align: center;
+    }
+    .calc_block {
+        display: block !important;
+    }
+    .conver_cripto {
+        margin: 0 auto;
+    }
+    .calc_pr {
+        margin: 0 auto;
+    }
+    .conver_currency {
+        margin: 0 auto;
+    }
+    .company_block {
+        margin: 0 auto;
+    }
+    .content_Bb221 {
+        justify-content: space-around;
+    }
+    .content_b2 {
+        display: block !important;
+    }
+    .top_fid {
+        display: block;
+        text-align: center;
+    }
+    .feed_img img{
+        width: 491px;
+        height: 230px;
+    }
+    .card_title {
+        text-align: -webkit-auto;
+    }
+
+    .bards_item__left__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 17px;
+
+        color: #FF0000;
+    }
+
+
+    .bards_item__left__subtitle {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .price__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 17px;
+
+        color: #FFFFFF;
+
+    }
+
+
+    .sale {
+        width: 94%;
+        margin: 0 auto;
+        background: rgba(36, 36, 36, 0.2);
+        backdrop-filter: blur(20px);
+        padding: 32px 20px;
+    }
+    #menu {
+        margin: -100px 0 0 -120px;
+    }
+}
+.thdsafa {
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+@media (max-width: 635px) {
+    .bards_item {
+        flex-direction: column;
+    }
+    .bards_item__right {
+        flex-direction: column;
+    }
+
+    .thdsafa {
+        flex-direction: row;
+    }
+    .time_vards {
+        padding-right: 18px;
+        padding-left: 54px;
+    }
+
+
+    .price__title {
+        padding-right: 36px !important;
+    }
+
+    .line_img {
+        padding-bottom: 20px !important;
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media (max-width: 500px) {
+    .sda {
+        display: flex;
+        justify-content: start;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .warn {
+        padding-right: 19px;
+    }
+    .bards_item {
+        padding: 19px 10px;
+    }
+}

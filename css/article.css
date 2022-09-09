@@ -1,0 +1,293 @@
+body {
+    background: #0A0A0A;
+}
+.section_blog_div1 {
+    background-image: url("../img/crime-news-log.png");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.market {
+    margin-top: 90px;
+    padding-left: 315px;
+}
+.market_title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.market_date {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 230px;
+    padding-top: 82px;
+}
+.obraz {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 630px;
+    line-height: 120%;
+}
+.image {
+    width: 630px;
+    height: 646px;
+}
+.text_2 {
+    padding-left: 305px;
+    padding-top: 30px;
+}
+.obraz_2 {
+    width: 1290px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.next_pred {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.div_text1 {
+    width: 100%;
+    padding-top: 500px;
+}
+
+.pred {
+    display: flex;
+    padding-left: 70px;
+}
+.pred_text {
+    margin-left: 30px;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 24px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.next {
+    display: flex;
+}
+.next_text {
+    margin-right: 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.pred_text:hover,
+.next_text:hover {
+    color: #FF0000;
+    transition: 0.4s all;
+}
+
+footer {
+    margin-top: 153px;
+}
+
+
+.div_text1 h1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.83em;
+    color: #FFFFFF;
+}
+
+.div_text1 p {
+    padding-top: 20px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.preloader {
+    --bg-color: #0000;
+    --size: 200px;
+    --first-color: #ff0000;
+    --second-color: #ff0000;
+    --third-color: #ff0000;
+    --thickness: 3px;
+    --duration: 1s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--duration);
+}
+
+.dn {
+    display: none;
+}
+.db {
+    display: block;
+}
+
+.preloader__content {
+    position: relative;
+    width: var(--size);
+    height: var(--size);
+}
+
+.preloader__first,
+.preloader__second,
+.preloader__third {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: var(--duration) linear infinite;
+}
+
+.preloader__first {
+    border-bottom: var(--thickness) solid var(--first-color);
+    animation-name: first;
+}
+
+.preloader__second {
+    border-right: var(--thickness) solid var(--second-color);
+    animation-name: second;
+}
+
+.preloader__third {
+    border-top: var(--thickness) solid var(--third-color);
+    animation-name: third;
+}
+
+@keyframes first {
+    0% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg) }
+    100% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg) }
+}
+
+@keyframes second {
+    0% { transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg) }
+    100% { transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg) }
+}
+
+@keyframes third {
+    0% { transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg) }
+    100% { transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg) }
+}
+
+/*1920 ga media kerak mas ozi normalniy ishlayabdi*/
+
+/*media 400 start*/
+@media (max-width: 400px) {
+    .div_text1 h1 {
+        font-size: 16px;
+        width: 200px;
+        margin: 0 auto;
+        letter-spacing: 0px;
+    }
+
+    .div_text1 p {
+        font-size: 15px;
+    }
+    .market {
+        padding-left: 10px;
+        padding-right: 70px;
+    }
+    .market_title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .obraz {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 120%;
+        color: #FFFFFF;
+        width: 355px;
+        line-height: 120%;
+    }
+
+    .obraz_2 {
+        width: 358px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-left: 20px;
+    }
+
+    .image {
+        width: 355px;
+        height: 365px;
+        margin-top: 20px;
+    }
+    .content {
+        padding-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_2 {
+        padding-left:0px;
+        padding-top: 30px;
+    }
+
+    .section_blog_div1 {
+        width: 295px;
+        margin: 0 auto;
+        height: 286px;
+    }
+    .next_pred {
+        flex-direction: column;
+    }
+    .next {
+        margin-left: 20px;
+    }
+    .pred {
+        margin-left: 20px;
+    }
+    .pred {
+        padding-left: 0;
+    }
+    .pred_text {
+        font-size: 16px;
+    }
+    .next_text {
+        font-size: 16px;
+    }
+    .div_text {
+        width: 317px;
+        margin: 0 auto;
+        padding-top: 126px;
+    }
+    .header_article {
+        position: relative;
+    }
+    .div_text1 {
+        padding-top: 145px;
+    }
+}
+/*media 400 finish*/

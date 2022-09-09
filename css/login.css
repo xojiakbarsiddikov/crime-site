@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050505;
+}
+
+.text-p-page_1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 22px;
+}
+
+.page_1-text {
+    padding-top: 600px;
+}
+.text-h1-page_1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.83em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+.block-1-23{
+    background-image: url('../img/crime_bg_login.png');
+    height: 100vh;
+    background-size: cover;
+    margin: 0 auto;
+    width: 76%;
+}
+.container_login{
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+    backdrop-filter: blur(25px);
+    width: 1291px;
+    height: 553px;
+    margin: 0 auto;
+}
+
+.login-h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+
+.text-login-page_1 {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    margin: 0 auto;
+}
+
+.login-btn {
+    width: 100px;
+    height: 23px;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+    backdrop-filter: blur(25px);
+    position: relative;
+}
+.login-btn22 {
+    width: 100px;
+    height: 23px;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+    backdrop-filter: blur(25px);
+    position: relative;
+}
+
+.btn__2 {
+    width: 100px;
+    height: 31px;
+}
+.border-bottom {
+    border-bottom: 2px solid #FF0000;
+}
+.login {
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    margin: 17px auto;
+}
+
+.input-h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    width: 408px;
+    height: 18px;
+    color: #FFFFFF;
+}
+.input__login-1 {
+    width: 410px;
+    height: 50px;
+    background: #050505;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    outline: none;
+    position: relative;
+    top: 15px;
+}
+
+.input__login-2 {
+    width: 410px;
+    height: 50px;
+    background: #050505;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    outline: none;
+    position: relative;
+    top: 15px;
+}
+
+.input-h1-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    width: 408px;
+    height: 18px;
+    color: #FFFFFF;
+}
+
+.input-login {
+    display: flex;
+    width: 67%;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+
+.input-login-2 {
+    display: flex;
+    width: 67%;
+    justify-content: space-between;
+    margin: 38px auto;
+}
+
+.input__2 {
+    position: relative;
+    right: 9px;
+}
+.input__5 {
+    position: relative;
+    right: 8px;
+}
+.button-login {
+    width: 213px;
+    height: 46px;
+    border: 1px solid #FF0000;
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+    backdrop-filter: blur(25px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF0000;
+}
+.button-login1 {
+    width: 213px;
+    height: 46px;
+    border: 1px solid #FF0000;
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+    backdrop-filter: blur(25px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF0000;
+}
+
+
+.login-button {
+    width: 16%;
+    margin: 6rem auto;
+}
+
+.sign-down {
+    display: none;
+}
+.sign-up {
+    display: none;
+}
+
+.text-sign-down-1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 408px;
+    height: 18px;
+}
+
+.input-sign-down-1 {
+    width: 410px;
+    outline: none;
+    height: 50px;
+    background: #050505;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    position: relative;
+    top: 16px;
+}
+
+.dn {
+    display: none!important;
+    transition: 0.2s ease;
+}
+.db {
+    display: block!important;
+    transition: 0.2s ease;
+}
+.sign-down-input-1 {
+    width: 32%;
+    margin: 37px auto;
+}
+.p-text-sign-down {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.5);
+}
+.p-text-sign-down:hover {
+    color: #FF0000;
+}
+.sign-down-href {
+    margin: 55px;
+}
+
+.btn-sign-down {
+    width: 213px;
+    height: 46px;
+    border: 1px solid #FF0000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF0000;
+    background: linear-gradient(138.83deg, rgba(36, 36, 36, 0.2) 23.33%, rgba(0, 0, 0, 0.2) 68.27%);
+    backdrop-filter: blur(25px);
+}
+
+.button-sign-down {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.text-sign-down-2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.login-h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+
+.login-text {
+    width: 13%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 134px;
+}
+
+footer {
+    margin-top: 8rem;
+    border-top: 2px solid red;
+    padding-top: 30px;
+}
+.error-p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 11px;
+    color: #FF0000;
+    position: relative;
+    top: 27px;
+}
+
+.border__3 {
+    border: 1px solid #FF0000;
+}
+
+
+.preloader {
+    --bg-color: #0000;
+    --size: 200px;
+    --first-color: #ff0000;
+    --second-color: #ff0000;
+    --third-color: #ff0000;
+    --thickness: 3px;
+    --duration: 1s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--duration);
+}
+
+
+.preloader__content {
+    position: relative;
+    width: var(--size);
+    height: var(--size);
+}
+
+.preloader__first,
+.preloader__second,
+.preloader__third {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: var(--duration) linear infinite;
+}
+
+.preloader__first {
+    border-bottom: var(--thickness) solid var(--first-color);
+    animation-name: first;
+}
+
+.preloader__second {
+    border-right: var(--thickness) solid var(--second-color);
+    animation-name: second;
+}
+
+.preloader__third {
+    border-top: var(--thickness) solid var(--third-color);
+    animation-name: third;
+}
+
+@keyframes first {
+    0% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg) }
+    100% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg) }
+}
+
+@keyframes second {
+    0% { transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg) }
+    100% { transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg) }
+}
+
+@keyframes third {
+    0% { transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg) }
+    100% { transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg) }
+}
+
+.glaz-i-1 {
+    background: #ff0000;
+    position: relative;
+    top: 24px;
+    width: 28px;
+    padding: 4px;
+    height: 25px;
+    right: 40px;
+}
+
+
+.glaz-i {
+    background: #ff0000;
+    position: relative;
+    top: 24px;
+    width: 28px;
+    padding: 4px;
+    height: 25px;
+    right: 40px;
+}
+
+.df-i-wrapper {
+    display: flex;
+}
+
+@media(max-width: 424px) {
+    .container_login {
+        margin: 102px auto;
+    }
+    .block-1-23 {
+        width: 289px;
+        height: 24vh;
+        margin-left: 16%;
+    }
+    .input-login {
+        display: inline-block;
+        width: 67%;
+        margin: 25px auto;
+    }
+    .input__2 {
+        top: 33px;
+        width: 45%;
+        right: 4px;
+    }
+    .input-login-2 {
+        display: inline-block;
+    }
+    .sign-up {
+        padding: 26px;
+    }
+    .input__login-1 {
+        width: 370px;
+    }
+    .input__login-2 {
+        width: 363px;
+    }
+    .input-h1-2 {
+        width: 360px;
+    }
+    .input-h1 {
+        width: 357px;
+    }
+    .input-wrap {
+        width: 44%;
+    }
+    .input__5 {
+        right: 5px;
+        top: 35px;
+        width: 45%;
+    }
+    .p-l {
+        position: relative;
+        left: 6.5rem;
+    }
+    .text-login-page_1 {
+        position: relative;
+        left: 8rem;
+        width: 0px;
+        margin: 0 0;
+        top: 21px;
+    }
+    .mtp {
+        width: 91%;
+    }
+    .login {
+        display: inline-block;
+        width: 0%;
+        justify-content: space-between;
+        margin: 17px auto;
+    }
+    .container_login {
+        background: none;
+        backdrop-filter: blur(0px);
+        width: 0px;
+        margin: 0 0;
+        margin-top: 52%;
+    }
+    .glaz-i {
+        left: 21rem;
+    }
+    .page_1-text {
+        left: 19px;
+        width: 100%;
+        position: relative;
+        right: 0px;
+        bottom: 36rem;
+    }
+    .btn__12232 {
+        position: relative;
+        left: 9.4rem;
+    }
+    .text-p-page_1 {
+        font-size: 13px;
+        right: 18px;
+    }
+    .btn__2 {
+        padding-top: 15px;
+        position: relative;
+        left: 9.4rem;
+    }
+    .input__5 {
+        right: 2px;
+    }
+    .button-login {
+        position: relative;
+        left: 4.8rem;
+    }
+    .login-text {
+        left: 7.3rem;
+    }
+    .sign-down-input-1 {
+        position: relative;
+        left: 2rem;
+    }
+    .input-sign-down-1 {
+        width: 366px;
+    }
+    .text-sign-down-1 {
+        width: 363px;
+    }
+    .sign-down-href {
+        margin: 55px 10rem;
+    }
+    .button-sign-down {
+        position: relative;
+        left: 6rem;
+        bottom: 2rem;
+    }
+    .text-h1-page_23 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.83em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .fonts {
+        font-size: 10px;
+    }
+}

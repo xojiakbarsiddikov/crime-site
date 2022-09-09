@@ -1,0 +1,74 @@
+@media(max-width: 424px) {
+    .profile_text {
+        width: 97%;
+    }
+    .items {
+        width: 99%;
+    }
+    .profile_text-2{
+        width: 319px;
+    }
+    .ava-1{
+        width: 25px;
+        height: 25px;
+    }
+    .person-text-p {
+        font-size: 13px;
+        width: 355px;
+        text-align: start;
+    }
+    .text-h1 {
+        font-size: 45px;
+    }
+    .df-content-person{
+        right: 7px;
+    }
+    .text-p-2 {
+        font-size: 17px;
+    }
+    .text-p-wrapper{
+        width: 355px;
+    }
+    .content-2-person-2 {
+        margin: 15rem auto;
+        width: 95%;
+    }
+    .img-person {
+        width: 9%;
+    }
+    .person-content-1{
+        position: relative;
+        top: 27rem;
+        left: 0.4rem;
+    }
+    .wrapper-content21 {
+        width: 40%;
+    }
+    .cltext-p-person-2 {
+        width: 254px;
+        font-size: 7px;
+    }
+    .copy-img {
+        width: 20px;
+        height: 20px;
+    }
+    .wrapper-text-content-2 {
+        width: 363px;
+        height: 1px;
+    }
+    .p-text-2 {
+        width: 355px;
+        font-size: 14px;
+    }
+    .text-span{
+        font-size: 13px;
+    }
+    .df-container__person-3{
+        display: inline-block;
+        position: relative;
+        bottom: 7rem;
+    }
+    .container__person{
+        display: inline-block;
+    }
+}
